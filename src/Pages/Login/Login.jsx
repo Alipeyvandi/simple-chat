@@ -43,7 +43,7 @@ export default function Login() {
     <Box>
       <Lottie animationData={login} />
       <GoogleOAuthProvider clientId="344789065811-vofbb91dbudn4hvvu6vvaqois5q77k66.apps.googleusercontent.com">
-        <GoogleLogin />
+        <GoogleLogin />  
       </GoogleOAuthProvider>
     </Box>
   );
